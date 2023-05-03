@@ -28,7 +28,7 @@ namespace DbConsoleApp
             connection.Dispose();
         }
 
-        public static string CONNECTION_STRING = "Data Source=data-host.via.company,8888;Initial Catalog=BancoDePedro;Persist Security Info=True;User ID=PedroMacioni;Password=1406Ch@ng3";
+        public static string CONNECTION_STRING = "SUACONEXÃO";
 
         public SqlConnection CreateConnection()
         {
